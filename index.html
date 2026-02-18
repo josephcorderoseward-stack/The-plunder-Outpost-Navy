@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Gilded Compass Guild</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Cinzel:wght@400;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #020617;
+      color: #e2e8f0;
+    }
+    .font-pirate { font-family: 'Pirata One', system-ui; }
+    .font-cinzel { font-family: 'Cinzel', serif; }
+    .font-body { font-family: 'Quattrocento', serif; }
+    
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0f172a; }
+    ::-webkit-scrollbar-thumb { background: #92400e; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #b45309; }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="font-body">
+  <div id="root"></div>
+</body>
+</html>
